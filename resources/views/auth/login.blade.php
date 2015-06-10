@@ -56,6 +56,13 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div >
+    <div class="container" >
+    	<div class="row" style=" height: 20px ;" >
+    		<div class="col-xs-5" style="background:#C03 ;"> salam </div>
+        	<div class="col-xs-7" style="background:#693 ;"> khoda fez</div>
+     	
+    	</div>
+     </div>
 </div>
 @endsection
