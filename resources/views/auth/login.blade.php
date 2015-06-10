@@ -63,6 +63,14 @@
         	<div class="col-xs-7" style="background:#693 ;"> khoda fez</div>
      	
     	</div>
+        <nav class="navbar navbar-default" >
+        <div class="navbar header "> my navbare</div>
+        <ul class="navbar menu">
+        	<li>yek</li>
+            <li>do</li>
+            <li>se</li>	
+        </ul>  
+        </div>
      </div>
 </div>
 @endsection
