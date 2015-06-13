@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid " style="height:40000px">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="panel panel-default">
@@ -63,12 +63,19 @@
         	<div class="col-xs-7" style="background:#693 ;"> khoda fez</div>
      	
     	</div>
-        <nav class="navbar navbar-default" >
-        <div class="navbar header "> my navbare</div>
-        <ul class="navbar menu">
-        	<li>yek</li>
-            <li>do</li>
-            <li>se</li>	
+        <nav class="navbar navbar-default navbar-fixed-top" >
+        <div class="navbar-header "><a class="navbar-brand"> my navbare</a></div>
+        <ul class="nav navbar-nav pull-right ">
+        	<li class="pull-right active dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">yek</a>
+            	<ul class="dropdown-menu">
+            		<li><a>sallam</a></li>
+                	<li><a>khoda hafeze</a></li>
+                </ul>	
+            
+            
+            </li>
+            <li class="pull-right"><a href="">do</a></li>
+            <li class="pull-right"><a href="">se</a></li>	
         </ul>  
         </div>
      </div>
